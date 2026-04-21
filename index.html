@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Hammls Garage</title>
+
+<style>
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #111;
+  color: white;
+}
+
+/* HERO */
+.hero {
+  height: 100vh;
+  background: url('garage.jpg') center/cover no-repeat;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.hero h1 {
+  font-size: 50px;
+  background: rgba(0,0,0,0.6);
+  padding: 20px 30px;
+  border-radius: 10px;
+}
+
+/* SECTION */
+.section {
+  padding: 60px 20px;
+  text-align: center;
+}
+
+.section h2 {
+  font-size: 28px;
+  margin-bottom: 20px;
+}
+
+.box {
+  max-width: 800px;
+  margin: auto;
+}
+
+/* BUTTONS */
+.buttons a {
+  display: block;
+  margin: 15px auto;
+  padding: 18px;
+  max-width: 300px;
+  border-radius: 50px;
+  text-decoration: none;
+  font-size: 18px;
+  color: white;
+  transition: 0.3s;
+}
+
+.call { background: #0d6efd; }
+.whatsapp { background: #25D366; }
+.email { background: #444; }
+
+.buttons a:hover {
+  transform: scale(1.05);
+}
+
+/* FOOTER */
+footer {
+  background: black;
+  padding: 40px 20px;
+  font-size: 14px;
+}
+</style>
+
+</head>
+
+<body>
+
+<!-- HERO -->
+<div class="hero">
+  <h1>Hammls Garage</h1>
+</div>
+
+<!-- ÜBER -->
+<div class="section">
+  <div class="box">
+    <h2>Reifenservice & KFZ-Service</h2>
+    <p>
+      Professioneller Service rund ums Fahrzeug.<br>
+      Schnell, zuverlässig und flexibel.
+    </p>
+    <p><b>Nur nach Terminvereinbarung</b></p>
+  </div>
+</div>
+
+<!-- LEISTUNGEN -->
+<div class="section" style="background:#1a1a1a;">
+  <div class="box">
+    <h2>Leistungen</h2>
+    <p>
+      Reifenwechsel<br>
+      Reifenservice<br>
+      KFZ-Reparaturen<br>
+      Individuelle Termine
+    </p>
+  </div>
+</div>
+
+<!-- KONTAKT -->
+<div class="section">
+  <div class="box">
+    <h2>Kontakt</h2>
+
+    <div class="buttons">
+      <a class="call" href="tel:+491234567890">📞 Anrufen</a>
+      <a class="whatsapp" href="https://wa.me/491234567890?text=Hallo%20ich%20möchte%20einen%20Termin">💬 WhatsApp Termin</a>
+      <a class="email" href="mailto:info@hammls-garage.de">✉️ E-Mail</a>
+    </div>
+
+  </div>
+</div>
+
+<!-- FOOTER -->
+<footer>
+  <h3>Impressum</h3>
+  <p>
+    Hammls Garage<br>
+    Inhaber: [Name deines Vaters]<br>
+    [Ort]<br>
+    Deutschland<br><br>
+
+    Telefon: +49 1234567890<br>
+    E-Mail: info@hammls-garage.de<br><br>
+
+    Kleingewerbe gemäß §19 UStG<br>
+    Keine Ausweisung der Mehrwertsteuer
+  </p>
+</footer>
+
+</body>
+</html>
